@@ -1,0 +1,95 @@
+.main-btn{}
+
+.section-title{
+  text-align: center;
+  margin: 30px 0 30px;
+  width: 100%;
+  h2{
+    font-family: CirceBold;
+    font-size: 34px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+}
+
+.my-dots {
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 50px;
+  li{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    button{
+      font-size: 0;
+      line-height: 0;
+      display: block;
+      width: 11px;
+      height: 11px;
+      padding: 5px;
+      cursor: pointer;
+      color: transparent;
+      background-color: #b2b2b2;
+      border-radius: 100%;
+      border: 0;
+      outline: none;
+      transition: all .2s ease;
+      &:hover,&:focus{
+        outline: none;
+      }
+      &:hover{
+        background-color: #fedb59;
+        opacity: .8;
+        transition: all .2s ease;
+      }
+    }
+  }
+}
+.my-dots li.slick-active button{
+  background-color: #fedb59;
+  transition: all .2s ease;
+}
+
+.scrollup{
+  width:36px;
+  height:36px;
+
+  position:absolute;
+  bottom:10px;
+  right:120px;
+  opacity: 0.8;
+  background-color: #fedb59;
+  box-shadow: 0 0 10px 2px #fdce71;
+  border-radius: 100%;
+  display:block;
+  text-indent:-9999px;
+  background-size: cover;
+  transition: all .3s ease;
+
+  &:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top:4px;
+    left: 6px;
+    background-image: url("../img/left-arrow.png");
+    background-size: cover;
+    transform: rotate(90deg);
+  }
+}
+.scrollup:hover{
+  opacity:1;
+  bottom:13px;
+  transition: all .3s ease;
+}
+

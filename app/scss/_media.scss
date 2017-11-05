@@ -1,0 +1,1282 @@
+
+@media (max-width: 1199px) {
+  header{
+    background-image: url("../img/locket.png");
+    background-position-x: 45%;
+    nav{
+      .logo{
+        img{
+        }
+      }
+      .site-info{
+        padding-right: 30px;
+        .phone{
+          font-size: 31px;
+        }
+        .info-text{
+          font-size: 18px;
+        }
+      }
+    }
+    .main-title-info{
+      margin-top: 50px;
+      h1{
+        font-size: 60px;
+      }
+      .description{
+        font-size: 22px;
+      }
+      .list-pro{
+        li{
+          list-style: none;
+          font-size: 34px;
+        }
+      }
+      .price-div{
+        font-family: Circe25;
+        font-size: 36px;
+      }
+    }
+  }
+
+  #section1{
+    .section1{
+      margin-bottom: 15px;
+      padding: 20px 45px;
+      .sec1{
+        span{
+          font-size: 21px;
+        }
+      }
+      .sec2{
+        text-align: center;
+        input{
+          width: 195px;
+          font-size: 19px;
+        }
+        button{
+          max-width: 200px;
+          font-size: 19px;
+        }
+      }
+    }
+  }
+
+  #section2{
+    .advantages{
+      margin-top: 20px;
+      padding-bottom: 30px;
+      .adv{
+        padding: 15px;
+        .img-advantages{
+          margin-top: 10px;
+          margin-bottom: 40px;
+          width: 80%;
+          height: 70px;
+          img{
+            max-width: 60px;
+            max-height: 60px;
+
+          }
+        }
+        .advantages-title{
+          h4{
+            font-size: 16px;
+            margin-bottom: 20px;
+            letter-spacing: .3px;
+          }
+        }
+        .advantages-desc{
+          font-size: 16px;
+          line-height:1.3;
+        }
+      }
+    }
+  }
+
+  #section4{
+    .row{
+      .use-right{
+        .row{
+          padding: 0 20px;
+          .partner{
+            text-align: center;
+            line-height: 100px;
+          }
+        }
+      }
+    }
+  }
+
+  #section5{
+    .section-title{
+      margin-top: 50px;
+    }
+    .review{
+      width: 49%;
+      padding: 15px 5px ;
+      margin-bottom: 20px;
+      .rev-img{
+        display: inline-block;
+        text-align: center;
+        height: 200px;
+        float: left;
+        line-height: 40px;
+        .block-img{
+          width: 80px;
+          height: 80px;
+          margin: 65px auto auto;
+          img{
+            width: 100%;
+            height: auto;
+            border-radius: 100%;
+          }
+        }
+        .author{
+          font-size: 15px;
+          letter-spacing: 0.1px;
+        }
+      }
+      .rev-text{
+        display: inline-block;
+        float: left;
+        .block-text-area{
+          width: 287px;
+          height: 180px;
+          margin-left: 25px;
+          margin-top: 20px;
+          &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 75px;
+            height: 75px;
+            background-color: #fdce71;
+            left: 0px;
+            border-radius: 2px;
+            top:30%;
+            z-index: 1000;
+            transform: rotate(45deg);
+          }
+          &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 75px;
+            height: 75px;
+            background-color: #fff;
+            left: 6px;
+            border-radius: 2px;
+            top:30%;
+            z-index: 1002;
+            transform: rotate(45deg);
+          }
+          .block-text{
+            width: 285px;
+            height: 180px;
+            padding: 15px 10px;
+            margin-left: 6px;
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+
+  .scrollup{
+    bottom:10px;
+    right:70px;
+  }
+}
+
+@media (max-width: 991px) {
+  header{
+    height: 680px;
+    min-height: 680px;
+    background-image: url("../img/locket.png");
+
+    nav{
+      .logo{
+        img{
+        }
+      }
+      .site-info{
+        padding-right: 30px;
+        .phone{
+          font-size: 30px;
+        }
+        .info-text{
+          font-size: 17px;
+        }
+      }
+    }
+    .main-title-info{
+      margin-top: 60px;
+      h1{
+        font-size: 67px;
+      }
+      .description{
+        font-size: 26px;
+      }
+      .list-pro{
+        li{
+          list-style: none;
+          font-size: 34px;
+        }
+      }
+      .price-div{
+        font-family: Circe25;
+        margin-top: 20px;
+        font-size: 38px;
+      }
+    }
+  }
+
+  #section1{
+    .section1{
+      margin-bottom: 15px;
+      padding: 20px 45px;
+      .sec1{
+        span{
+          font-size: 21px;
+        }
+      }
+      .sec2{
+        text-align: right;
+        input{
+          width: 195px;
+          font-size: 19px;
+          display: block;
+          float: right;
+          margin-bottom: 15px;
+        }
+        button{
+          max-width: 195px;
+          font-size: 20px;
+          float: right;
+          display: block;
+        }
+      }
+    }
+  }
+
+  #section2{
+    .advantages{
+      margin-top: 20px;
+      padding-bottom: 30px;
+      .adv{
+        padding: 15px 40px;
+        .img-advantages{
+          margin-top: 20px;
+          margin-bottom: 30px;
+          width: 60%;
+          height: 80px;
+          img{
+            max-width: 70px;
+            max-height: 70px;
+
+          }
+        }
+        .advantages-title{
+          h4{
+            font-size: 18px;
+            margin-bottom: 20px;
+            letter-spacing: .3px;
+          }
+        }
+        .advantages-desc{
+          font-size: 16px;
+          line-height:1.3;
+        }
+      }
+    }
+  }
+
+  #section4{
+    .row{
+      .use-left{
+        padding: 80px 30px 60px;
+
+        background-color: #fedb59;
+        .c-use{
+          width: 100%;
+          line-height: 95px;
+          .key{
+            font-size: 34px;
+          }
+        }
+      }
+      .use-right{
+        .row{
+          padding: 0 20px;
+          .partner{
+            text-align: center;
+            line-height: 100px;
+            img{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #section5{
+    .section-title{
+      margin-top: 50px;
+    }
+    .review{
+      width: 100%;
+      margin-top: 10px;
+      overflow: hidden;
+      display: inline-block;
+      padding: 20px 5px ;
+      position: relative;
+      margin-bottom: 20px;
+      .review-block{
+        overflow: hidden;
+        margin: auto;
+        width: 570px;
+        .rev-img{
+          display: inline-block;
+          text-align: center;
+          height: 200px;
+          float: left;
+          line-height: 40px;
+          .block-img{
+            width: 130px;
+            height: 130px;
+            margin-top: 35px;
+            img{
+              width: 100%;
+              height: auto;
+              border-radius: 100%;
+            }
+          }
+          .author{
+            font-size: 18px;
+            font-family: CirceBold;
+            text-align: center;
+          }
+        }
+        .rev-text{
+          display: inline-block;
+          .block-text-area{
+            width: 372px;
+            height: 170px;
+            border-radius: 14px;
+            margin-left: 45px;
+            margin-top: 20px;
+            background-color: #fdce71;
+            box-shadow: 4px 2px 10px 1px rgba(0, 0, 0, 0.22);
+            position: relative;
+
+            &:before{
+              content: '';
+              display: block;
+              position: absolute;
+              width: 75px;
+              height: 75px;
+              background-color: #fdce71;
+              left: 0px;
+              border-radius: 2px;
+              top:30%;
+              z-index: 1000;
+              transform: rotate(45deg);
+            }
+            &:after{
+              content: '';
+              display: block;
+              position: absolute;
+              width: 75px;
+              height: 75px;
+              background-color: #fff;
+              left: 6px;
+              border-radius: 2px;
+              top:30%;
+              z-index: 1002;
+              transform: rotate(45deg);
+            }
+
+            .block-text{
+              border-radius: 14px;
+              width: 370px;
+              height: 170px;
+              background-color: #fff;
+              padding: 15px 20px;
+              font-size: 17px;
+              margin-left: 6px;
+              z-index: 1003;
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .scrollup{
+    bottom:10px;
+    right:70px;
+  }
+}
+
+@media (max-width: 767px) {
+  header{
+    height: 670px;
+    background-image: url("../img/locket.png");
+    nav{
+      .logo{
+        img{
+        }
+      }
+      .site-info{
+        padding-right: 30px;
+        .phone{
+          font-size: 30px;
+        }
+        .info-text{
+          font-size: 17px;
+        }
+      }
+    }
+
+    .main-title-info{
+      margin-top: 60px;
+      h1{
+        font-size: 60px;
+      }
+      .description{
+        font-size: 24px;
+      }
+      .list-pro{
+        li{
+          list-style: none;
+          font-size: 28px;
+          padding-left: 30px;
+          line-height: 1.8;
+          &.list-item-1{
+            &:before{
+              width: 20px;
+              height: 20px;
+              top:13px;
+              left: 0;
+
+            }
+          }
+          &.list-item-2{
+            &:before{
+              width: 16px;
+              height: 16px;
+              top:17px;
+              left: 0;
+            }
+          }
+          &.list-item-3{
+            &:before{
+              width: 20px;
+              height: 20px;
+              top:15px;
+              left: 0;
+
+            }
+          }
+          &.list-item-4{
+            &:before{
+              width: 18px;
+              height: 18px;
+              top:16px;
+              left: 0;
+            }
+          }
+        }
+      }
+      .price-div{
+        font-family: Circe25;
+        margin-top: 20px;
+        font-size: 34px;
+      }
+    }
+    #section07{
+      display: none;
+    }
+  }
+
+  #section1{
+    .section1{
+      margin-bottom: 15px;
+      padding: 20px 15px;
+      .sec1{
+        padding: 0 10px;
+        span{
+          font-size: 18px;
+        }
+      }
+      .sec2{
+        text-align: right;
+        input{
+          width: 185px;
+          font-size: 17px;
+          display: block;
+          float: right;
+          margin-bottom: 15px;
+        }
+        button{
+          max-width: 185px;
+          font-size: 18px;
+          float: right;
+          display: block;
+        }
+      }
+    }
+  }
+
+  #section2{
+    .advantages{
+      margin-top: 20px;
+      padding-bottom: 30px;
+      .adv{
+        padding: 15px 20px;
+        .img-advantages{
+          width: 80%;
+        }
+        .advantages-title{
+          h4{
+            font-size: 18px;
+            margin-bottom: 20px;
+            letter-spacing: .3px;
+          }
+        }
+        .advantages-desc{
+          font-size: 16px;
+          line-height:1.3;
+        }
+      }
+    }
+  }
+
+  #section3{
+    .row{
+      padding-bottom: 35px;
+      padding-top: 5px;
+      p{
+        font-size: 16px;
+        line-height: 1.37;
+        letter-spacing: 0.1px;
+      }
+    }
+  }
+
+  #section4{
+    .row{
+      .use-left{
+        padding: 60px 30px 40px;
+
+        background-color: #fedb59;
+        .c-use{
+          width: 100%;
+          line-height: 85px;
+          .key{
+            font-size: 44px;
+          }
+          .key-desc{
+            width: 58%;
+            display: inline-block;
+            font-size: 15px;
+            letter-spacing: 0.4px;
+            line-height: 1.2;
+          }
+        }
+      }
+
+      .use-right{
+        .section-title{
+          margin-top: 40px;
+        }
+        .row{
+          padding: 0 0;
+          .partner{
+            text-align: center;
+            line-height: 130px;
+            padding: 0 20px;
+            img{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #section5{
+    .section-title{
+      margin-top: 50px;
+    }
+    .review{
+      width: 100%;
+      margin-top: 10px;
+      overflow: hidden;
+      display: inline-block;
+      padding: 20px 5px ;
+      position: relative;
+      margin-bottom: 20px;
+      .review-block{
+        overflow: hidden;
+        margin: auto;
+        width: 510px;
+        .rev-img{
+          display: inline-block;
+          text-align: center;
+          height: 200px;
+          float: left;
+          line-height: 40px;
+          .block-img{
+            width: 120px;
+            height: 120px;
+            margin-top: 35px;
+            img{
+              width: 100%;
+              height: auto;
+              border-radius: 100%;
+            }
+          }
+          .author{
+            font-size: 17px;
+            font-family: CirceBold;
+            text-align: center;
+          }
+        }
+        .rev-text{
+          display: inline-block;
+          .block-text-area{
+            width: 312px;
+            height: 170px;
+            border-radius: 14px;
+            margin-left: 45px;
+            margin-top: 20px;
+            background-color: #fdce71;
+            box-shadow: 4px 2px 10px 1px rgba(0, 0, 0, 0.22);
+            position: relative;
+
+            &:before{
+              content: '';
+              display: block;
+              position: absolute;
+              width: 75px;
+              height: 75px;
+              background-color: #fdce71;
+              left: 0px;
+              border-radius: 2px;
+              top:30%;
+              z-index: 1000;
+              transform: rotate(45deg);
+            }
+            &:after{
+              content: '';
+              display: block;
+              position: absolute;
+              width: 75px;
+              height: 75px;
+              background-color: #fff;
+              left: 6px;
+              border-radius: 2px;
+              top:30%;
+              z-index: 1002;
+              transform: rotate(45deg);
+            }
+
+            .block-text{
+              border-radius: 14px;
+              width: 310px;
+              height: 170px;
+              background-color: #fff;
+              padding: 15px 20px;
+              font-size: 16px;
+              margin-left: 6px;
+              z-index: 1003;
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #section6{
+    .section-title{
+      margin-bottom: 30px;
+    }
+    .contact-info{
+      text-align: center;
+      ul{
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .row{
+      margin-top: 30px;
+      margin-bottom: 50px;
+      .contact-map{
+        padding-right: 10px;
+      }
+      .contact-form{
+        padding: 0 25px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .scrollup{
+    bottom:440px;
+    right:130px;
+    &:hover{
+      bottom:443px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  header{
+    height: 600px;
+    background-image: url("../img/locket.png");
+    background-position-x: -320px;
+    nav{
+      .site-info{
+        padding-right: 30px;
+        .phone{
+          font-size: 28px;
+        }
+        .info-text{
+          font-size: 16px;
+        }
+      }
+    }
+
+    .main-title-info{
+      margin-top: 60px;
+      h1{
+        font-size: 56px;
+        margin-bottom: 25px;
+      }
+      .description{
+        font-size: 22px;
+      }
+      .list-pro{
+        li{
+          list-style: none;
+          font-size: 28px;
+          padding-left: 30px;
+          line-height: 1.8;
+        }
+      }
+      .price-div{
+        font-family: Circe25;
+        margin-top: 20px;
+        font-size: 32px;
+      }
+    }
+  }
+
+  #section1{
+    .section1{
+      margin-bottom: 15px;
+      padding: 20px 15px;
+      .sec1{
+        padding: 0 10px;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        span{
+          font-size: 20px;
+        }
+      }
+      .sec2{
+        text-align: center;
+        padding: 7px;
+        input{
+          width: 185px;
+          font-size: 17px;
+          display: inline-block;
+          margin-top: 15px;
+          margin-left: 20px;
+          float: left;
+        }
+        button{
+          max-width: 185px;
+          font-size: 18px;
+          display: inline-block;
+          margin-top: 15px;
+          float: right;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  #section2{
+    .advantages{
+      margin-top: 20px;
+      padding-bottom: 30px;
+      .adv{
+        padding: 15px 50px;
+        text-align: center;
+        .img-advantages{
+          width: 100%;
+        }
+        .advantages-title{
+          h4{
+            font-size: 22px;
+            margin-bottom: 20px;
+            letter-spacing: .3px;
+          }
+        }
+        .advantages-desc{
+          font-size: 18px;
+          line-height:1.4;
+        }
+      }
+    }
+  }
+
+  #section3{
+    .row{
+      padding-bottom: 35px;
+      padding-top: 5px;
+      .about-us-1{
+        display: none;
+      }
+      .about-us-2{
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  #section4{
+    .row{
+      .use-left{
+        padding: 60px 30px 40px;
+
+        background-color: #fedb59;
+        .c-use{
+          width: 100%;
+          line-height: 85px;
+          .key{
+            font-size: 44px;
+          }
+          .key-desc{
+            width: 58%;
+            display: inline-block;
+            font-size: 15px;
+            letter-spacing: 0.4px;
+            line-height: 1.2;
+          }
+        }
+      }
+
+      .use-right{
+        .section-title{
+          margin-top: 40px;
+        }
+        .row{
+          padding: 0 0;
+          .partner{
+            text-align: center;
+            line-height: 130px;
+            padding: 0 20px;
+            img{
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #section5{
+    .section-title{
+      margin-top: 50px;
+      margin-bottom: 0;
+      h2{
+        margin-bottom: 0;
+      }
+    }
+    .review{
+      width: 100%;
+      margin-top: 0;
+      overflow: hidden;
+      display: inline-block;
+      padding: 20px 5px 10px;
+      position: relative;
+      margin-bottom: 0;
+      .review-block{
+        overflow: hidden;
+        margin: auto;
+        width: auto;
+        .rev-img{
+          display: block;
+          text-align: center;
+          height: auto;
+          float: none;
+          line-height: 40px;
+          .block-img{
+            width: 120px;
+            height: 120px;
+            margin-top: 35px;
+            text-align: center;
+            img{
+              width: 100%;
+              height: auto;
+              border-radius: 100%;
+            }
+          }
+          .author{
+            font-size: 17px;
+            font-family: CirceBold;
+            text-align: center;
+          }
+        }
+        .rev-text{
+          display: block;
+          float: none;
+          .block-text-area{
+            width: 330px;
+            height: 173px;
+            border-radius: 18px;
+            margin: 20px auto;
+            background-color: #fdce71;
+            box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.22);;
+            position: relative;
+
+            &:before{
+              content: '';
+              display: block;
+              position: absolute;
+              width: 75px;
+              height: 75px;
+              background-color: #fdce71;
+              left: 38%;
+              border-radius: 2px;
+              top:-2px;
+              z-index: 1000;
+              transform: rotate(45deg);
+            }
+            &:after{
+              content: '';
+              display: block;
+              position: absolute;
+              width: 75px;
+              height: 75px;
+              background-color: #fff;
+              left: 38%;
+              border-radius: 2px;
+              top:5px;
+              z-index: 1002;
+              transform: rotate(45deg);
+            }
+
+            .block-text{
+              border-radius: 18px;
+              width: 332px;
+              height: 170px;
+              background-color: #fff;
+              padding: 20px 20px 15px;
+              font-size: 17px;
+              margin-left: -2px;
+              margin-top:-6px;
+              z-index: 1003;
+              position: absolute;
+              top: 11px;
+              left: 0;
+              p{
+                z-index: 4000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .scrollup{
+    bottom:440px;
+    right:20px;
+    &:hover{
+      bottom:443px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  header{
+    height: 600px;
+    background-image: url("../img/locket.png");
+    background-position-x: -420px;
+    .main-title-info{
+      margin-top: 60px;
+      h1{
+        font-size: 48px;
+      }
+      .description{
+        font-size: 21px;
+      }
+      .price-div{
+        font-family: Circe25;
+        margin-top: 20px;
+        font-size: 34px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  header{
+    height: 580px;
+    background-image: url("../img/locket.png");
+    background-position-x: -420px;
+    nav{
+      .logo{
+        img{
+        }
+      }
+      .site-info{
+        padding-right: 30px;
+        .phone{
+          font-size: 26px;
+        }
+        .info-text{
+          font-size: 15px;
+        }
+      }
+    }
+    .main-title-info{
+      margin-top: 60px;
+      h1{
+        font-size: 43px;
+      }
+      .description{
+        font-size: 18px;
+      }
+      .price-div{
+        font-family: Circe25;
+        margin-top: 20px;
+        font-size: 32px;
+      }
+    }
+  }
+  #section1{
+    .section1{
+      .sec2{
+        text-align: center;
+        padding: 7px;
+        input{
+          width: 200px;
+          font-size: 21px;
+          display: block;
+
+          float: none;
+          margin: 10px auto 20px;
+        }
+        button{
+          max-width: 200px;
+          font-size: 22px;
+          display: block;
+          float: none;
+          margin: 15px auto 0px;
+        }
+      }
+    }
+  }
+  #section2{
+    .advantages{
+      margin-top: 20px;
+      padding-bottom: 30px;
+      .adv{
+        padding: 15px 30px;
+        text-align: center;
+        .img-advantages{
+          width: 100%;
+        }
+        .advantages-title{
+          h4{
+            font-size: 22px;
+            margin-bottom: 20px;
+            letter-spacing: .3px;
+          }
+        }
+        .advantages-desc{
+          font-size: 18px;
+          line-height:1.4;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 400px){
+  header{
+    height: 580px;
+    background-image: url("../img/locket.png");
+    background-position-x: -420px;
+    nav{
+      .site-info{
+        padding-right: 30px;
+        .phone{
+          font-size: 26px;
+        }
+        .info-text{
+          font-size: 15px;
+        }
+      }
+    }
+    .main-title-info{
+      margin-top: 60px;
+      h1{
+        font-size: 38px;
+      }
+      .description{
+        font-size: 16px;
+      }
+      .price-div{
+        font-family: Circe25;
+        margin-top: 20px;
+        font-size: 32px;
+      }
+    }
+  }
+  #section4{
+    .row{
+      .use-left{
+        padding: 50px 10px 30px;
+
+        background-color: #fedb59;
+        .c-use{
+          width: 100%;
+          line-height: 85px;
+          .key{
+            font-size: 34px;
+            padding-right: 15px;
+            width: 30%;
+          }
+          .key-desc{
+            width: 68%;
+            display: inline-block;
+            font-size: 14px;
+            letter-spacing: 0.1px;
+            line-height: 1.3;
+          }
+        }
+      }
+    }
+  }
+
+  #section5{
+    .review{
+      .review-block{
+        .rev-text{
+          .block-text-area{
+            width: 290px;
+            height: 193px;
+            border-radius: 18px;
+            margin: 20px auto;
+            background-color: #fdce71;
+            box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.22);;
+            position: relative;
+
+            .block-text{
+              border-radius: 18px;
+              width: 292px;
+              height: 190px;
+              background-color: #fff;
+              padding: 20px 20px 15px;
+              font-size: 17px;
+              margin-left: -2px;
+              margin-top:-6px;
+              z-index: 1003;
+              position: absolute;
+              top: 11px;
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 355px){
+  header{
+    height: 560px;
+    background-image: url("../img/locket.png");
+    background-position-x: -420px;
+    nav{
+      .site-info{
+        padding-right: 30px;
+        .phone{
+          font-size: 26px;
+        }
+        .info-text{
+          font-size: 15px;
+        }
+      }
+    }
+    .main-title-info{
+      margin-top: 60px;
+      h1{
+        font-size: 34px;
+      }
+      .description{
+        font-size: 16px;
+      }
+      .price-div{
+        font-family: Circe25;
+        margin-top: 20px;
+        font-size:28px;
+      }
+    }
+  }
+  #section4{
+    .row{
+      .use-left{
+        padding: 50px 10px 30px;
+
+        background-color: #fedb59;
+        .c-use{
+          width: 100%;
+          line-height: 85px;
+          .key{
+            font-size: 34px;
+            padding-right: 15px;
+            width: 30%;
+          }
+          .key-desc{
+            width: 68%;
+            display: inline-block;
+            font-size: 14px;
+            letter-spacing: 0.1px;
+            line-height: 1.3;
+          }
+        }
+      }
+    }
+  }
+
+  #section5{
+    .review{
+      .review-block{
+        .rev-text{
+          .block-text-area{
+            width: 260px;
+            height: 243px;
+            .block-text{
+              width: 262px;
+              height: 240px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
